@@ -12,6 +12,10 @@ public class AddressBook {
         buddies.remove(b);
     }
 
+    void sayHi() {
+        System.out.println("Hi");
+    }
+
     public static void main(String[] args) {
         System.out.println("Address Books");
         BuddyInfo b2 = new BuddyInfo("Homer", "somehwere","123456869");
